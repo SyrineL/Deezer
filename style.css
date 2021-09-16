@@ -71,9 +71,11 @@ header nav {
     width:  auto;
     height: 500px;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
+    margin-top: 0%; 
+    margin-left: 850px;
+    padding: 0px;
       
 }
 
@@ -90,7 +92,13 @@ header nav {
     text-align: left;
 }
 
+.section1 {
+ 
+    margin-top: 0%;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
 
+}
 
 .bouton3 {
 
@@ -170,17 +178,31 @@ header nav {
 
 background-color:  #ef5466;
 text-align: left;
-color: white;
+color: white;   
 }
 
-.section3 {
+.section3 h1 {
+    margin-top: 0px; 
+    padding: 20px;
+    margin-left: 450px;
+    flex-direction: row;
+     
+ }
 
-    text-align: start;
-    align-items: flex-end;
-    align-content: flex-end
-    
+.section3 p {
+   margin-top: 25px; 
+   margin-left: 450px;
+   flex-direction: row;
     
 }
+
+.section31 {
+    margin-top: 0%; 
+    margin-left: 50px;
+    flex-direction: row;
+    padding: 50px;
+     
+ }
 
 .logo1{
 
@@ -236,13 +258,7 @@ color: white;
 
 /* SECTION 4 */
 
-.ul{
+.section03 ul{
     display: flex;
-    align-items: flex-end;
-    padding: 1px;
-    background-color: white;
-    border: 2px solid #f9f9f9;
-    border-style: none none solid none;
-    
-    
-  }
+    justify-content: flex-end;
+   }
