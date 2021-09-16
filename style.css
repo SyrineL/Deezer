@@ -68,12 +68,13 @@ header nav {
 
 .section11 img{
 
-    width:  auto;
-    height: 500px;
+    width:  450px;
+    height: 450px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     margin-top: 0%; 
+    margin-bottom: 70px;
     margin-left: 850px;
     padding: 0px;
       
@@ -82,7 +83,9 @@ header nav {
 .section1 h1{
 
     font-size: 2em;
-    text-align: left;
+    text-align:start;
+    text-align: justify;
+    margin-top: -30%;
     
 }
 
@@ -111,6 +114,7 @@ header nav {
     border-radius: 50px;
     border-color: #ef5466;
     
+    
 
 }
 
@@ -133,12 +137,15 @@ header nav {
 
     text-align: center;
     display: flex;
+
 }
+
+
 
 .section2{
 
     
-    padding: 30px;
+    padding: 40px;
     
     
 }
@@ -150,7 +157,7 @@ header nav {
     
 }
 
-.section2{
+.section02{
 
     background-color: #f9f9f9;
     
@@ -229,9 +236,10 @@ color: white;
 .logo4{
 
     width:  auto;
-    height: 40px;
+    height: 40px; 
     
-      
+    
+          
 }
 .logo5{
 
@@ -258,7 +266,3 @@ color: white;
 
 /* SECTION 4 */
 
-.section03 ul{
-    display: flex;
-    justify-content: flex-end;
-   }
